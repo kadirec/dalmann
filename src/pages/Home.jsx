@@ -206,7 +206,8 @@ export default function Home() {
                 src="/hero-slide.png"
                 alt=""
                 loading="eager"
-                fetchpriority="high"
+                fetchPriority="high"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
             </motion.div>
@@ -220,18 +221,10 @@ export default function Home() {
               <CausticRays opacity={0.45} />
             </motion.div>
 
-            {/* Caustic light rays — layer B (offset phase, mirrored) */}
-            <motion.div
-              className="absolute inset-0"
-              animate={reduceMotion ? undefined : { x: ["3%", "-3%", "3%"], opacity: [0.15, 0.4, 0.15] }}
-              transition={reduceMotion ? undefined : { duration: 8, repeat: Infinity, ease: EASE_SILK, delay: -2 }}
-            >
-              <CausticRays opacity={0.3} scaleX={-1} />
-            </motion.div>
           </motion.div>
 
-          {/* Rising bubbles */}
-          {!reduceMotion && <Bubbles count={8} />}
+          {/* Rising bubbles — az sayıda DOM / animasyon */}
+          {!reduceMotion && <Bubbles count={5} />}
 
           {/* Existing ink gradient + noise for contrast */}
           <div className="absolute inset-0 bg-gradient-to-b from-ink/40 via-ink/20 to-ink/90" />
@@ -285,10 +278,10 @@ export default function Home() {
       <section className="relative overflow-hidden bg-cream border-y border-ink/10 marquee-gradient">
         <motion.div
           animate={{ x: ["0%", "-50%"] }}
-          transition={{ duration: 40, ease: "linear", repeat: Infinity }}
+          transition={{ duration: 28, ease: "linear", repeat: Infinity }}
           className="flex gap-10 md:gap-16 py-6 md:py-8 whitespace-nowrap"
         >
-          {[...MARQUEE, ...MARQUEE, ...MARQUEE].map((w, i) => (
+          {[...MARQUEE, ...MARQUEE].map((w, i) => (
             <span key={i} className="font-display italic text-2xl md:text-4xl lg:text-5xl text-ink/30 flex items-center gap-10 md:gap-16">
               {w}
               <span className="inline-block h-2 w-2 rounded-full bg-gold/60" />
