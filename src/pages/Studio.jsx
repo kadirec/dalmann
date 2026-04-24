@@ -49,20 +49,11 @@ export default function Studio() {
       />
 
       <div className="container-luxury relative text-center">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="text-eyebrow text-gold"
-        >
-          Dalmann Atölyesi
-        </motion.p>
-
         <motion.h1
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-8 text-display max-w-5xl mx-auto text-balance"
+          transition={{ duration: 1.2, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+          className="text-display max-w-5xl mx-auto text-balance"
         >
           Tasarım stüdyosu ve <span className="serif-italic gold-text">özel atölye,</span> <br className="hidden md:block" />
           yakında açılıyor.
@@ -71,7 +62,7 @@ export default function Studio() {
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 1, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
           className="mt-10 max-w-2xl mx-auto text-body-lg text-cream/80"
         >
           Özel sipariş için ziyaretçilerini randevuyla kabul eden, yavaş ve bilinçli kararlar için hazırlanmış bir atölye. Yakında kapılarını açıyor.
@@ -80,7 +71,7 @@ export default function Studio() {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 1, delay: 0.55, ease: [0.16, 1, 0.3, 1] }}
           className="mt-16 flex justify-center gap-4 md:gap-8"
         >
           {[
@@ -109,10 +100,10 @@ export default function Studio() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.1 }}
-          className="mt-24 flex items-center justify-center gap-6 text-eyebrow text-cream/40"
+          className="mt-24 flex items-center justify-center gap-6 font-sans text-sm tracking-wide text-cream/45 normal-case"
         >
           <span className="h-px w-16 bg-cream/20" />
-          <span>Nişantaşı · İstanbul</span>
+          <span>Çemberlitaş · Fatih · İstanbul</span>
           <span className="h-px w-16 bg-cream/20" />
         </motion.div>
       </div>
