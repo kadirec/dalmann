@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
-import { useMemo, useRef } from "react";
+import { motion, useReducedMotion } from "framer-motion";
+import { useMemo } from "react";
 import collections from "../data/collections.json";
 import products from "../data/products.json";
 import SectionLabel from "../components/SectionLabel";
@@ -174,18 +174,13 @@ const HERITAGE_TRUST_BLOCKS = [
 ];
 
 export default function Home() {
-  const heroRef = useRef(null);
   const reduceMotion = useReducedMotion();
-  const { scrollYProgress } = useScroll({ target: heroRef, offset: ["start start", "end start"] });
-  const heroY = useTransform(scrollYProgress, [0, 1], [0, 220]);
-  const heroScale = useTransform(scrollYProgress, [0, 1], [1, 1.16]);
-  const heroOpacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
 
   return (
     <>
       {/* HERO */}
-      <section ref={heroRef} className="relative min-h-[100svh] flex items-end overflow-hidden bg-ink text-cream">
-        <motion.div style={{ y: heroY, scale: heroScale }} className="absolute inset-0">
+      <section className="relative min-h-[100svh] flex items-end overflow-hidden bg-ink text-cream">
+        <div className="absolute inset-0">
           {/* Underwater camera drift — slow pan + tilt + breathe */}
           <motion.div
             className="absolute inset-0"
@@ -229,9 +224,9 @@ export default function Home() {
           {/* Existing ink gradient + noise for contrast */}
           <div className="absolute inset-0 bg-gradient-to-b from-ink/40 via-ink/20 to-ink/90" />
           <div className="absolute inset-0 bg-noise opacity-50" />
-        </motion.div>
+        </div>
 
-        <motion.div style={{ opacity: heroOpacity }} className="relative w-full flex flex-col items-center justify-center min-h-[100svh]">
+        <div className="relative w-full flex flex-col items-center justify-center min-h-[100svh]">
           <motion.img
             src="/hero-logo.png"
             alt="Dalmann Jewellery"
@@ -271,7 +266,7 @@ export default function Home() {
               ↓
             </motion.span>
           </motion.div>
-        </motion.div>
+        </div>
       </section>
 
       {/* MARQUEE */}
