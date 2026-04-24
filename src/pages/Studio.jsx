@@ -19,15 +19,6 @@ function useCountdown() {
 
 export default function Studio() {
   const { days, hours, mins, secs } = useCountdown();
-  const [email, setEmail] = useState("");
-  const [notified, setNotified] = useState(false);
-
-  const submit = (e) => {
-    e.preventDefault();
-    if (!email) return;
-    setNotified(true);
-    setEmail("");
-  };
 
   return (
     <section className="relative min-h-screen flex items-center bg-ink text-cream overflow-hidden pt-32 pb-20">
@@ -114,39 +105,10 @@ export default function Studio() {
           ))}
         </motion.div>
 
-        <motion.form
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 1.1, ease: [0.16, 1, 0.3, 1] }}
-          onSubmit={submit}
-          className="mt-20 max-w-xl mx-auto"
-        >
-          <p className="text-eyebrow text-cream/60 mb-4">İlk davetiye listesine katılın</p>
-          <div className="flex items-end gap-4 border-b border-cream/30 pb-3 focus-within:border-gold transition-colors duration-500">
-            <input
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="eposta@adresi.com"
-              aria-label="E-posta"
-              className="flex-1 bg-transparent text-cream placeholder:text-cream/30 font-serif text-lg outline-none py-2"
-            />
-            <button type="submit" className="text-eyebrow text-cream hover:text-gold transition-colors duration-500">
-              Haber Ver →
-            </button>
-          </div>
-          <p className={`mt-4 text-body-sm transition-opacity duration-700 ${notified ? "opacity-100 text-gold-soft" : "opacity-70 text-cream/50"}`}>
-            {notified
-              ? "Teşekkürler. Açılış haftasına özel davetiyeniz e-postanıza ulaşacak."
-              : "Açılışta tek bir bildirim, sonrasında sessizlik."}
-          </p>
-        </motion.form>
-
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.4 }}
+          transition={{ duration: 1, delay: 1.1 }}
           className="mt-24 flex items-center justify-center gap-6 text-eyebrow text-cream/40"
         >
           <span className="h-px w-16 bg-cream/20" />

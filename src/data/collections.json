@@ -3,7 +3,7 @@
     "id": "breath-of-the-deep",
     "name": "The Breath of the Deep",
     "nameTr": "Derinliğin Nefesi",
-    "year": "2024",
+    "year": "2026",
     "status": "Ödüllü Koleksiyon",
     "tagline": "Okyanusların sessiz gücüne adanmış, nefesin ve dengenin mücevhere dönüşmüş hali.",
     "concept": "Gerçek lüks, hayatı var eden değerlere duyulan bilinçtir.",
@@ -12,14 +12,17 @@
     "designerNote": "Gerçek lüks, hayatı var eden değerlere duyulan bilinçtir. Doğa kendi güzelliğini hep sunar ve bu güzelliği yaşatmak, korumakla başlar.",
     "materials": ["Akuamarin", "Garnet taşlar", "İnci", "Beyaz altın", "Deniz kabuğu formu"],
     "pieces": 5,
-    "cover": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1800&auto=format&fit=crop",
+    "cover": "/collection/the-breath-of-the-deep/kapak.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=80&w=1600&auto=format&fit=crop"
+      "/collection/the-breath-of-the-deep/1.jpg",
+      "/collection/the-breath-of-the-deep/2.jpg",
+      "/collection/the-breath-of-the-deep/3.jpg",
+      "/collection/the-breath-of-the-deep/4.jpg",
+      "/collection/the-breath-of-the-deep/5.jpg",
+      "/collection/the-breath-of-the-deep/odul.JPG"
     ],
     "awards": [
-      "Uluslararası Mücevher Tasarım Ödülü 2024 — Altın",
+      "Uluslararası Mücevher Tasarım Ödülü 2026",
       "İstanbul Tasarım Bienali — Finalist"
     ],
     "featured": true,
