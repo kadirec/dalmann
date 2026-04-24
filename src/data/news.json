@@ -1,0 +1,63 @@
+[
+  {
+    "id": "n-001",
+    "title": "Dalmann, Uluslararası Mücevher Tasarım Ödülü'nde Altına Layık Görüldü",
+    "excerpt": "The Breath of the Deep koleksiyonu, malzeme dürüstlüğü ve ekolojik alt metniyle uluslararası jüri tarafından ödüle layık görüldü.",
+    "source": "IJDA Basın Bülteni",
+    "date": "2024-10-18",
+    "readTime": "4 dk okuma",
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1600&auto=format&fit=crop",
+    "category": "Ödül",
+    "featured": true
+  },
+  {
+    "id": "n-002",
+    "title": "Bir Kuyumcunun Grameri: Aleyna Nur Özdemir ile Söyleşi",
+    "excerpt": "Kurucu; miras, çizimin disiplini ve tek bir İstanbul atölyesinde ısrar etmesinin nedenleri üzerine.",
+    "source": "Vogue Türkiye",
+    "date": "2024-08-02",
+    "readTime": "8 dk okuma",
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1600&auto=format&fit=crop",
+    "category": "Röportaj"
+  },
+  {
+    "id": "n-003",
+    "title": "Yavaş Mücevher Üzerine Bir Manifesto",
+    "excerpt": "Dalmann, sezonluk üretim yerine arşiv düşünen yeni bir sessiz akımın parçası olarak öne çıkıyor.",
+    "source": "The Business of Fashion",
+    "date": "2024-05-14",
+    "readTime": "6 dk okuma",
+    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1600&auto=format&fit=crop",
+    "category": "Dosya"
+  },
+  {
+    "id": "n-004",
+    "title": "Vicenzaoro 2024: Odayı Geçmeye Değer Eserler",
+    "excerpt": "Yoğun bir fuar içinde Dalmann'ın Derinliğin Nefesi yüzüğü tek başına bir jest olarak öne çıkıyor.",
+    "source": "WWD",
+    "date": "2024-01-22",
+    "readTime": "3 dk okuma",
+    "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=1600&auto=format&fit=crop",
+    "category": "Editöryal"
+  },
+  {
+    "id": "n-005",
+    "title": "İstanbul'un Yükselen Tasarım Sesleri",
+    "excerpt": "Şehrin yeni jenerasyon tasarımcılarından bir portre — Dalmann aralarında.",
+    "source": "Wallpaper*",
+    "date": "2023-11-06",
+    "readTime": "10 dk okuma",
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop",
+    "category": "Profil"
+  },
+  {
+    "id": "n-006",
+    "title": "2024'te Etik Lüks Aslında Ne Demek?",
+    "excerpt": "Dalmann dahil bir avuç ev, izlenebilirlik için ölçülebilir bir standart belirliyor.",
+    "source": "Harper's Bazaar",
+    "date": "2023-09-19",
+    "readTime": "7 dk okuma",
+    "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1600&auto=format&fit=crop",
+    "category": "Dosya"
+  }
+]

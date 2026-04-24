@@ -1,0 +1,35 @@
+{
+  "name": "Aleyna Nur Özdemir", 
+  "portrait": "/aleyna-nur-ozdemir-1.png",
+  "philosophy": "Akademik Disiplin, Zanaatkâr Ruh",
+  "statement": "Dalmann Jewellery imzası taşıyan her eser, akademik bir tasarım disiplini ile geleneksel kuyumculuk sanatının usta ellerde nadide birleşimidir.",
+  "biography": [
+    "Aleyna Nur Özdemir, Dalmann Jewellery'i akademik bir tasarım disiplini ile geleneksel kuyumculuk sanatının buluştuğu bir ev olarak kurdu. Akademik geçmişini, zanaatkâr bir sabır ve malzemeye duyulan derin bir saygıyla birleştirir.",
+    "Tasarım süreçlerinin her aşamasını — çizimden mumun oyulmasına, döküm ve cilaya — İstanbul'daki tek bir atölyede bizzat denetler. Bu, hem kalitenin hem de anlamın korunmasının tek yoludur."
+  ],
+  "themes": [
+    {
+      "title": "Ruhun Sessiz Dili",
+      "body": "Dalmann Jewellery mücevheri, sahibinin ruhuyla şekillenen sanat eserleri olarak tanımlar. Her insanın kendine has bir ışığı ve hikâyesi olduğu gerçeğinden hareketle; tasarımlarında kişisel kimliği ve duyguları merkeze alır."
+    },
+    {
+      "title": "Mücevher Bir Anlatıdır",
+      "body": "Her parça taşıyıcısıyla birlikte olgunlaşan bir anlatıdır. Süsleme değil, bir duruşun ve bir dönemin sessiz tanığıdır."
+    },
+    {
+      "title": "Etik Lüks",
+      "body": "Gerçek lüksün, doğaya ve emeğe duyulan derin saygıdan geçtiğine inanan Dalmann Jewellery, tüm süreçlerinde etik değerleri ön planda tutar. Geri dönüştürülmüş metaller, izlenebilir taşlar ve küçük üretim partileri."
+    }
+  ],
+  "awards": [
+    { "year": "2026", "title": "Uluslararası Mücevher Tasarım Ödülü — Altın", "org": "IJDA" },
+    { "year": "2026", "title": "İstanbul Tasarım Bienali — Finalist", "org": "IDB" },
+    { "year": "2023", "title": "Yılın Genç Tasarımcısı", "org": "Couture Turkey" },
+    { "year": "2022", "title": "Zanaat Mükemmelliği Ödülü", "org": "Anadolu Zanaat Konseyi" }
+  ],
+  "exhibitions": [
+    "Vicenzaoro, İtalya — 2026",
+    "Couture Show Las Vegas — 2026",
+    "İstanbul Contemporary — 2023"
+  ]
+}

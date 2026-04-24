@@ -1,0 +1,95 @@
+[
+  {
+    "id": "p-001",
+    "name": "Derinliğin Nefesi Yüzüğü",
+    "collection": "breath-of-the-deep",
+    "category": "Yüzük",
+    "price": "₺ 148.000",
+    "materials": "Akuamarin · Garnet · İnci · Beyaz Altın",
+    "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=1400&auto=format&fit=crop",
+    "description": "Koleksiyonun ödüllü baş eseri. Okyanusun sessiz döngüsünü taşıyan akuamarin merkezli, elde şekillendirilmiş yüzük.",
+    "featured": true
+  },
+  {
+    "id": "p-002",
+    "name": "Nefes Küpeleri",
+    "collection": "breath-of-the-deep",
+    "category": "Küpe",
+    "price": "₺ 86.500",
+    "materials": "İnci · Beyaz Altın",
+    "image": "https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1400&auto=format&fit=crop",
+    "description": "Elde dökülmüş bir akıntıya tutunmuş, hafifçe sallanan inciler — denizin nefesi gibi."
+  },
+  {
+    "id": "p-003",
+    "name": "Derin Kolye",
+    "collection": "breath-of-the-deep",
+    "category": "Kolye",
+    "price": "₺ 168.000",
+    "materials": "Akuamarin · Garnet · Gümüş",
+    "image": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=80&w=1400&auto=format&fit=crop",
+    "description": "Merkezde bir akuamarin, çevresinde garnet halkası — derinliğin iki farklı rengi.",
+    "featured": true
+  },
+  {
+    "id": "p-004",
+    "name": "Monolit Yüzük",
+    "collection": "geometric-dreams",
+    "category": "Yüzük",
+    "price": "₺ 104.000",
+    "materials": "Fırçalanmış Platin · Oniks",
+    "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=1400&auto=format&fit=crop",
+    "description": "Saf bir geometrik jestin somutlaşması — tek bir parlak oniks yüzeyi."
+  },
+  {
+    "id": "p-005",
+    "name": "Açı Kolye",
+    "collection": "geometric-dreams",
+    "category": "Kolye",
+    "price": "₺ 92.000",
+    "materials": "18 Ayar Sarı Altın · Elmas",
+    "image": "https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?q=80&w=1400&auto=format&fit=crop",
+    "description": "Tek bir keskin açı ve boynun hattında asılı kalan tek bir elmas."
+  },
+  {
+    "id": "p-006",
+    "name": "Fısıltı Küpeleri",
+    "collection": "ethereal-whispers",
+    "category": "Küpe",
+    "price": "₺ 68.000",
+    "materials": "Beyaz Altın · Ay Taşı",
+    "image": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=1400&auto=format&fit=crop",
+    "description": "Elde çekilmiş altın teller üzerinde ay taşı — duyulan en sessiz mücevher.",
+    "featured": true
+  },
+  {
+    "id": "p-007",
+    "name": "Çiy Yüzüğü",
+    "collection": "ethereal-whispers",
+    "category": "Yüzük",
+    "price": "₺ 72.500",
+    "materials": "Beyaz Altın · Rose-cut Pırlanta",
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1400&auto=format&fit=crop",
+    "description": "Sabah çiyi gibi — neredeyse ışıkla değişen, narin bir halka."
+  },
+  {
+    "id": "p-008",
+    "name": "Telkari Bilezik",
+    "collection": "heritage-and-modern",
+    "category": "Bilezik",
+    "price": "₺ 214.000",
+    "materials": "18 Ayar Altın · Zümrüt · El Oyma",
+    "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1400&auto=format&fit=crop",
+    "description": "Anadolu telkari geleneğinin çağdaş bir bilezik formunda yeniden doğuşu."
+  },
+  {
+    "id": "p-009",
+    "name": "Mimari Yüzük",
+    "collection": "heritage-and-modern",
+    "category": "Yüzük",
+    "price": "₺ 128.000",
+    "materials": "18 Ayar Altın · Safir",
+    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1400&auto=format&fit=crop",
+    "description": "Bir İstanbul kubbesinin içe kıvrılan hattından damıtılmış bir yüzük formu."
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "breath-of-the-deep",
+    "name": "The Breath of the Deep",
+    "nameTr": "Derinliğin Nefesi",
+    "year": "2024",
+    "status": "Ödüllü Koleksiyon",
+    "tagline": "Okyanusların sessiz gücüne adanmış, nefesin ve dengenin mücevhere dönüşmüş hali.",
+    "concept": "Gerçek lüks, hayatı var eden değerlere duyulan bilinçtir.",
+    "story": "Uluslararası ölçekte takdir gören ve ödüle layık görülen The Breath of the Deep, Dalmann Jewellery tasarım anlayışını temsil eden seçkin eserlerden biridir. Yaşamın kaynağı olan derinliklerden ilham alan bu özel tasarım, okyanusların sessiz fakat vazgeçilmez gücüne adanmıştır.",
+    "storyLong": "Dünyadaki yaşam döngüsünün görünmeyen kahramanları olan deniz ekosistemleri; nefesin, dengenin ve sürekliliğin sembolüdür. The Breath of the Deep, bu eşsiz döngüye saygı duruşu niteliğinde tasarlanmıştır. Merkezindeki taş, derin suların gizemini ve ışığını yansıtırken; formundaki organik çizgiler denizin doğal hareketinden ilham alır.",
+    "designerNote": "Gerçek lüks, hayatı var eden değerlere duyulan bilinçtir. Doğa kendi güzelliğini hep sunar ve bu güzelliği yaşatmak, korumakla başlar.",
+    "materials": ["Akuamarin", "Garnet taşlar", "İnci", "Beyaz altın", "Deniz kabuğu formu"],
+    "pieces": 5,
+    "cover": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1800&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=80&w=1600&auto=format&fit=crop"
+    ],
+    "awards": [
+      "Uluslararası Mücevher Tasarım Ödülü 2024 — Altın",
+      "İstanbul Tasarım Bienali — Finalist"
+    ],
+    "featured": true,
+    "model": {
+      "full": "/models/ful.fbx",
+      "parts": [
+        { "id": "kasa", "label": "Yüzük Alt Kasa", "url": "/models/yuzuk/yuzuk-alt-kasa.fbx", "tint": "#e8c247", "material": "gold", "note": "18K sarı altın taşıyıcı gövde — elde şekillendirilmiş." },
+        { "id": "deniz", "label": "Deniz Altı Formu", "url": "/models/yuzuk/yuzuk-deniz-alti.fbx", "tint": "#e8c247", "material": "gold", "note": "Deniz yıldızı ve kabuk motifli üst form — soğuk mine detayları." },
+        { "id": "mavi", "label": "Akuamarin", "url": "/models/yuzuk/mavi-tas.fbx", "tint": "#4fb8d9", "material": "gemLight", "note": "20×10 mm özel kesim akuamarin — göksel mavi, ışığı yansıtan taç." },
+        { "id": "garnet", "label": "Yakut Taşlar", "url": "/models/yuzuk/garnet-taslar.fbx", "tint": "#d31c3f", "material": "gem", "note": "2 / 1.5 / 1 mm yuvarlak yakutlar — döngünün sıcak yansıması." },
+        { "id": "inciler", "label": "İnciler", "url": "/models/yuzuk/inciler.fbx", "tint": "#faf6ea", "material": "pearl", "note": "2 mm doğal inciler (4 adet) — dengenin ve nefesin sembolü." }
+      ]
+    }
+  },
+  {
+    "id": "geometric-dreams",
+    "name": "Geometric Dreams",
+    "nameTr": "Geometrik Düşler",
+    "year": "2023",
+    "status": "Çağdaş Serisi",
+    "tagline": "Saf geometrinin rüya gibi hafifliğe büründüğü bir çağdaş anlatı.",
+    "concept": "Disiplinli çizgiler, cesur bir çağdaşlık.",
+    "story": "Geometric Dreams, mimari disiplin ile mücevher estetiğini bir araya getirir. Her parça, saf bir geometrik fikrin altın ve taşa dönüşmüş halidir; net çizgileri ve cesur oranlarıyla, modern kadının duruşuna eşlik eder.",
+    "storyLong": "Koleksiyon, Bauhaus kökenli bir sadelik arayışının çağdaş bir yorumudur. Her eserin arkasında tek bir net fikir vardır: tek bir açı, tek bir yüzey, tek bir taş. Bu disiplin, mücevheri süslemeden çok bir ifadeye dönüştürür.",
+    "designerNote": "Geometri, süslemenin sükûnetidir.",
+    "materials": ["18 ayar sarı altın", "Siyah oniks", "Beyaz elmas", "Fırçalanmış platin"],
+    "pieces": 8,
+    "cover": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=1800&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?q=80&w=1600&auto=format&fit=crop"
+    ],
+    "awards": [],
+    "featured": false
+  },
+  {
+    "id": "ethereal-whispers",
+    "name": "Ethereal Whispers",
+    "nameTr": "Eterik Fısıltılar",
+    "year": "2023",
+    "status": "Doğadan İlham",
+    "tagline": "Doğanın hafif dokusunu taşıyan, kulağa fısıldayan narin bir seri.",
+    "concept": "Hafifliğin ve ince işçiliğin şiiri.",
+    "story": "Ethereal Whispers, yaprak damarlarından çiy damlasına kadar doğanın en kırılgan anlarını mücevhere taşır. Hafif, neredeyse fısıldar gibi; bedene değmeyen bir zarafet arayışıdır.",
+    "storyLong": "Her eser, elde çekilmiş altın teller ve minik, rose-cut taşlarla örülür. Koleksiyon, mücevherin ağırlığını değil, varlığını hissettirmek ister. Günlük olarak taşınan, ancak hiç geri çekilmeyen bir zarafettir.",
+    "designerNote": "En sessiz mücevher, en çok anlatandır.",
+    "materials": ["Beyaz altın teller", "Rose-cut pırlanta", "Ay taşı", "İnci"],
+    "pieces": 7,
+    "cover": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=1800&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1600&auto=format&fit=crop"
+    ],
+    "awards": [],
+    "featured": false
+  },
+  {
+    "id": "heritage-and-modern",
+    "name": "Heritage & Modern",
+    "nameTr": "Miras ve Çağdaş",
+    "year": "2022",
+    "status": "Arşiv Diyaloğu",
+    "tagline": "Anadolu kuyumculuğunun çağdaş bir dille yeniden yazımı.",
+    "concept": "Miras bir dildir, kostüm değil.",
+    "story": "Heritage & Modern, Anadolu'nun telkari ve hat geleneklerini çağdaş mimari formlarla birleştiren bir diyalog koleksiyonudur. Geçmiş burada bir nostalji değil, yaşayan bir gramerdir.",
+    "storyLong": "Eserler, İstanbul atölyesinde el oyma tekniğiyle üretilir. Her parça, bir Rumi mısrasından ya da bir mimari detaydan esinlenen, ancak bugünün kadınının elinde asimetrik ve güçlü duran bir forma kavuşur.",
+    "designerNote": "Geleneği kopya etmek değil, onunla konuşmak gerekir.",
+    "materials": ["18 ayar sarı altın", "Zümrüt", "Safir", "El oyma gümüş"],
+    "pieces": 9,
+    "cover": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1800&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1600&auto=format&fit=crop"
+    ],
+    "awards": [],
+    "featured": false
+  }
+]
