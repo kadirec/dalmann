@@ -3,7 +3,6 @@ import { motion, useReducedMotion } from "framer-motion";
 import { useMemo } from "react";
 import collections from "../data/collections.json";
 import products from "../data/products.json";
-import SectionLabel from "../components/SectionLabel";
 import Reveal from "../components/Reveal";
 
 const featuredCollection = collections.find((c) => c.featured) ?? collections[0];
@@ -336,14 +335,8 @@ export default function Home() {
                   </div>
                 </Reveal>
                 <Reveal delay={0.2}>
-                  <div className="image-frame aspect-square bg-bone shadow-soft relative">
+                  <div className="image-frame aspect-square bg-bone shadow-soft">
                     <img src={featuredCollection.gallery[1]} alt="" className="w-full h-full object-cover" loading="lazy" />
-                    <div className="absolute bottom-2 right-2 h-10 w-10 rounded-full bg-gold-gradient flex items-center justify-center text-ink font-display shadow-luxe">
-                      <div className="text-center leading-tight">
-                        <p className="text-[0.4rem] tracking-wide-luxe uppercase">Ödül</p>
-                        <p className="text-xs italic">24</p>
-                      </div>
-                    </div>
                   </div>
                 </Reveal>
               </div>
@@ -424,22 +417,6 @@ export default function Home() {
                 />
               </motion.div>
 
-              {/* Ödül rozeti */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8, rotate: -6 }}
-                whileInView={{ opacity: 1, scale: 1, rotate: -6 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
-                animate={{ rotate: [-6, -4, -6] }}
-                style={{ animationDuration: "6s" }}
-                className="absolute left-[55%] top-[40%] z-10 h-20 w-20 rounded-full bg-gold-gradient flex items-center justify-center text-ink font-display shadow-luxe"
-              >
-                <div className="text-center leading-tight">
-                  <p className="text-[0.5rem] tracking-wide-luxe uppercase">Ödüllü</p>
-                  <p className="mt-0.5 text-lg italic">2026</p>
-                </div>
-              </motion.div>
-
               {/* Dekoratif altın çizgi */}
               <motion.div
                 initial={{ scaleY: 0 }}
@@ -454,9 +431,8 @@ export default function Home() {
 
           {/* Sağ — metin */}
           <div className="lg:col-span-5 lg:col-start-8">
-            <SectionLabel index="02" label="Öne Çıkan Koleksiyon" />
             <Reveal delay={0.1}>
-              <h2 className="mt-8 text-heading text-balance">
+              <h2 className="mt-0 text-heading text-balance">
                 {featuredCollection.name}
               </h2>
             </Reveal>
