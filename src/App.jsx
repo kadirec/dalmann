@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import SeoHead from "./components/SeoHead";
 
 const Home = lazy(() => import("./pages/Home"));
 const Dalmann = lazy(() => import("./pages/Dalmann"));
@@ -58,6 +59,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <BrowserRouter>
+      <SeoHead />
       <ScrollToTop />
       <Navigation />
       <AnimatedRoutes />
